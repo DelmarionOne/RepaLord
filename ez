@@ -1,0 +1,25 @@
+def func1(arg1, arg2):
+    var7 = func2(arg1, arg2)
+    var12 = func3(arg2, arg1)
+    var13 = 941 ^ arg2
+    var14 = (arg2 & (((var7 + (1914245941 | -1774660171)) + (((126 + 697 - var13 ^ var13) | (arg2 & (1412246479 | -1118043601) - -967825896 ^ var7 + arg1)) + arg2)) & arg1 & arg2 ^ var7 | arg1) + arg1 | var12) & arg1
+    result = var7 ^ ((-174 & var12 & var12) - var13 + -486 | var13 ^ var7) & var13 - 746
+    return result
+def func3(arg8, arg9):
+    var10 = 0
+    for var11 in [arg8 | arg9 - ((9 - (arg8 + i - i + arg8)) - ((-7 + arg8 | i) | i) | -6) for i in [var10 + i for i in (arg8 & -3 | arg9 for i in xrange(18))]]:
+        var10 += -6 + -2 | var11
+    return var10
+def func2(arg3, arg4):
+    var5 = 0
+    for var6 in xrange(7):
+        var5 += arg3 & arg4 + 7
+    return var5
+if __name__ == "__main__":
+    print 'prog_size: 5'
+    print 'func_number: 4'
+    print 'arg_number: 15'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
